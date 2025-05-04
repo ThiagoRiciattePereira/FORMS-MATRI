@@ -1,0 +1,29 @@
+#container-2{
+        background-color: var(--surface-secondary);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: static;
+        padding: 64px;
+        gap: 32px;
+
+        div{
+
+           h1{
+            font-size: 40px;
+            line-height: 125%;
+            letter-spacing: 0%;
+            padding-block: 8px;
+
+            span{
+                color: var(--text-highlight);
+            }
+
+           } 
+
+        }
+
+        img[alt="Kids"]{
+            object-fit: cover;
+        }
+}
