@@ -12,19 +12,69 @@
 
 <body id="app" class="grid">
     <form method="get" id="container-1" class="flex">
-        <header>
+        <header class="max-width">
             <span>
-                <img src="assets/Icons/arrow-left-02.png" alt="arrow-left">Voltar
+                <a href="#" class="flex">
+                    <img src="assets/Icons/arrow-left-02.png" alt="arrow-left">Voltar
+                </a>
             </span>
-            <p>
             <h1>
                 Formulário de matrícula
             </h1>
-            Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.
-            </p>
+            <span>
+                Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.
+            </span>
         </header>
-        <main>
+        <main class="flex max-width">
 
+            <section class="flex">
+                <h2 class="text-h2">
+                    Informações da criança
+                </h2>
+                <div class=" flex flex-col gap-4px">
+                    <p class="title-forms">
+                        Nome Completo
+                    </p>
+                    <input type="text" placeholder="Nome" class="input">
+                </div>
+                <div class=" flex flex-col gap-4px">
+                    <p class="title-forms">
+                        Data de nascimento
+                    </p>
+                    <input type="date" class="input">
+                </div>
+                <div class=" flex flex-col gap-4px">
+                    <p class="title-forms">
+                        Sexo
+                    </p>
+                    <select name="genero" class="select">
+                        <option label="Selecione" value="Selecione" selected disabled></option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                    </select>
+                </div>
+                <div class=" flex flex-col gap-4px">
+                    <p class="title-forms">
+                        Informações médicas
+                    </p>
+                    <textarea name="more-text" class="textarea"></textarea>
+                </div>
+                <div class=" flex flex-col gap-4px">
+                    <p class="title-forms">
+                        Certidão de nascimento
+                    </p>
+                    <input type="file" id="file-upload">
+                    <label for="file-upload" class="custom-file-upload"><img src="assets/Icons/cloud-upload.png" alt="cloud"> <span>Clique aqui para <br>selecionar arquivos</span></label>
+                </div>
+            </section>
+
+            <section class="flex">
+                <h2 class="text-h2">Endereço residencial</h2>
+            </section>
+
+            <section class="flex">
+
+            </section>
         </main>
 
     </form>
@@ -32,7 +82,8 @@
         <div>
             <img src="assets/Logo.png" alt="">
             <h1>Porque cada momento <br>de <span>aprendizado</span> conta</h1>
-            <p>Inscreva seu filho em nossa escola e veja-o florescer em um <br>ambiente acolhedor, seguro e estimulante.</p>
+            <p>Inscreva seu filho em nossa escola e veja-o florescer em um <br>ambiente acolhedor, seguro e estimulante.
+            </p>
         </div>
         <img src="assets/Images/pana.png" alt="Kids">
     </aside>
