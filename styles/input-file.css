@@ -1,0 +1,31 @@
+input[type="file"]{
+    display: none;
+}
+
+.custom-file-upload{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 2px dashed var(--stroke-default);
+    border-radius: 8px;
+    height: 160px;
+    color: var(--text-tertiary);
+    
+    &:focus{
+        outline: 2px dashed var(--stroke-highlight);
+        background-color: var(--surface-secondary);
+
+        
+    }
+
+    span{
+        text-align: center;
+    }
+
+    img{
+        width: 48px;
+        height: 48px;
+    }
+
+}

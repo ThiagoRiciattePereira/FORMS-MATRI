@@ -1,0 +1,17 @@
+.input{
+    border: 1px solid var(--stroke-default);
+    border-radius: 8px;
+    color: var(--text-tertiary);
+    padding: 12px 16px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 400;
+
+    &:focus{
+        outline: none;
+        color: var(--text-primary);
+        border-color: var(--stroke-highlight);
+        box-shadow: 0 0 0 4px #FEE7D6; 
+        transition:  500ms;
+    }
+}

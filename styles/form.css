@@ -1,3 +1,58 @@
-#container-1{
-      justify-content: center; 
+#container-1 {
+      align-items: center;
+      flex-direction: column;
+      overflow: scroll;
+      padding: 64px;
+      gap: 48px;
+
+      header {
+
+            span:nth-child(1) {
+                  color: var(--text-secondary);
+                  align-items: center;
+                  gap: 8px;
+                  font-size: 16px;
+                  font-weight: bold;
+
+                  a{
+                        text-decoration: none;
+                        color: var(--text-secondary);
+                        gap: 8px;
+                  }
+            }
+
+
+            h1 {
+                  color: var(--text-primary);
+                  padding-top: 24px;
+                  font-size: 24px;
+                  font-weight: 600;
+            }
+
+            span:nth-child(3) {
+                  font-size: 16px;
+                  font-weight: 600;
+                  color: var(--text-secondary);
+            }
+
+      }
+
+      main{
+            flex-direction: column;
+            gap: 48px;
+            
+            section:nth-child(1){
+                  flex-direction: column;
+                  gap: 24px;
+            }
+
+            section:nth-child(2){
+
+            }
+
+            section:nth-child(3){
+
+            }
+
+      }
 }
