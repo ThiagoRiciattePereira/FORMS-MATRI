@@ -42,16 +42,24 @@
             gap: 48px;
             
             section:nth-child(1){
-                  flex-direction: column;
-                  gap: 24px;
+                flex-direction: column;
+                gap: 24px;
             }
 
             section:nth-child(2){
+                flex-direction: column;
+                gap: 24px;
 
+                div:nth-child(3){
+                    gap: 20px;
+                    grid-template-columns: 2fr 1fr;
+
+                }
             }
 
             section:nth-child(3){
-
+                flex-direction: column;
+                gap: 24px;
             }
 
       }
