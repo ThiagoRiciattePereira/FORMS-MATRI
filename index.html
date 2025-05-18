@@ -1,112 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Forms-for-School</title>
-    <link rel="stylesheet" href="styles/index.css">
+        <title>Forms-for-School</title>
+        <link rel="stylesheet" href="styles/index.css">
 
-</head>
+    </head>
 
-<body id="app" class="grid">
-    <form method="get" id="container-1" class="flex">
-        <header class="max-width">
-            <span>
-                <a href="#" class="flex">
-                    <img src="assets/Icons/arrow-left-02.png" alt="arrow-left">Voltar
-                </a>
-            </span>
-            <h1>
-                Formulário de matrícula
-            </h1>
-            <span>
-                Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.
-            </span>
-        </header>
-        <main class="flex max-width">
+    <body id="app" class="grid">
+        <form method="get" id="container-1" class="flex">
+            <header class="max-width">
+                <span>
+                    <a href="#" class="flex">
+                        <img src="assets/Icons/arrow-left-02.png" alt="arrow-left">Voltar
+                    </a>
+                </span>
+                <h1>
+                    Formulário de matrícula
+                </h1>
+                <span>
+                    Preencha os dados abaixo para matricular seu filho na escola de educação infantil Estrelas do Amanhã.
+                </span>
+            </header>
+            <main class="flex max-width">
 
-            <section class="flex">
-                <h2 class="text-h2">
-                    Informações da criança
-                </h2>
-                <div class=" flex flex-col gap-4px">
-                    <p class="title-forms">
+                <section class="flex">
+                    <h2 class="text-h2">
+                        Informações da criança
+                    </h2>
+                    <div class=" flex flex-col gap-4px">
+                        <p class="title-forms">
                         Nome Completo
-                    </p>
-                    <input type="text" placeholder="Nome" class="input">
-                </div>
-                <div class=" flex flex-col gap-4px">
-                    <p class="title-forms">
-                        Data de nascimento
-                    </p>
-                    <input type="date" class="input">
-                </div>
-                <div class=" flex flex-col gap-4px">
-                    <p class="title-forms">
-                        Sexo
-                    </p>
-                    <select name="genero" class="select">
-                        <option label="Selecione" value="Selecione" selected disabled></option>
-                        <option value="Masculino">Masculino</option>
-                        <option value="Feminino">Feminino</option>
-                    </select>
-                </div>
-                <div class=" flex flex-col gap-4px">
-                    <p class="title-forms">
-                        Informações médicas
-                    </p>
-                    <textarea name="more-text" class="textarea"></textarea>
-                </div>
-                <div class=" flex flex-col gap-4px">
-                    <p class="title-forms">
-                        Certidão de nascimento
-                    </p>
-                    <input type="file" id="file-upload">
-                    <label for="file-upload" class="custom-file-upload"><img src="assets/Icons/cloud-upload.png" alt="cloud"> <span>Clique aqui para <br>selecionar arquivos</span></label>
-                </div>
-            </section>
-
-            <section class="flex">
-                <h2 class="text-h2">Endereço residencial</h2>
-                <div class="flex flex-col gap-4px">
-                    <p class="title-forms">
-                    CEP
-                    </p>
-                    <input type="number" name="CEP" value="CEP" class="input">
-                </div>
-                <div class="grid">
-                    <div class="flex flex-col">
-                        <p class="title-forms">
-                        Rua
-                        </p>      
-                        <input type="text" name="Rua" value="Rua das Flores" disabled class="input">
-                    </div>
-                    <div>
-                        <p class="title-forms">
-                        Número
                         </p>
-                        <input type="number" name="numero" value="123" class="input">
+                        <input type="text" placeholder="Nome" class="input">
                     </div>
-                </div>
-            </section>
+                    <div class=" flex flex-col gap-4px">
+                        <p class="title-forms">
+                        Data de nascimento
+                        </p>
+                        <input type="date" class="input">
+                    </div>
+                    <div class=" flex flex-col gap-4px">
+                        <p class="title-forms">
+                        Sexo
+                        </p>
+                        <select name="genero" class="select">
+                            <option label="Selecione" value="Selecione" selected disabled></option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                        </select>
+                    </div>
+                    <div class=" flex flex-col gap-4px">
+                        <p class="title-forms">
+                        Informações médicas
+                        </p>
+                        <textarea name="more-text" class="textarea"></textarea>
+                    </div>
+                    <div class=" flex flex-col gap-4px">
+                        <p class="title-forms">
+                        Certidão de nascimento
+                        </p>
+                        <input type="file" id="file-upload">
+                        <label for="file-upload" class="custom-file-upload"><img src="assets/Icons/cloud-upload.png" alt="cloud"> <span>Clique aqui para <br>selecionar arquivos</span></label>
+                    </div>
+                </section>
 
-            <section class="flex"> 
+                <section class="flex">
+                    <h2 class="text-h2">Endereço residencial</h2>
+                    <div class="flex flex-col gap-4px">
+                        <p class="title-forms">
+                        CEP
+                        </p>
+                        <input type="number" name="CEP" value="CEP" class="input">
+                    </div>
+                    <div class="grid">
+                        <div class="flex flex-col">
+                            <p class="title-forms">
+                            Rua
+                            </p>      
+                            <input type="text" name="Rua" value="Rua das Flores" disabled class="input">
+                        </div>
+                        <div>
+                            <p class="title-forms">
+                            Número
+                            </p>
+                            <input type="number" name="numero" value="123" class="input">
+                        </div>
+                    </div>
+                </section>
 
-            </section>
-        </main>
+                <section class="flex"> 
 
-    </form>
-    <aside id="container-2" class="flex">
-        <div>
-            <img src="assets/Logo.png" alt="">
-            <h1>Porque cada momento <br>de <span>aprendizado</span> conta</h1>
-            <p>Inscreva seu filho em nossa escola e veja-o florescer em um <br>ambiente acolhedor, seguro e estimulante.
-            </p>
-        </div>
-        <img src="assets/Images/pana.png" alt="Kids">
-    </aside>
-</body>
+                </section>
+            </main>
+
+        </form>
+        <aside id="container-2" class="flex">
+            <div>
+                <img src="assets/Logo.png" alt="">
+                <h1>Porque cada momento <br>de <span>aprendizado</span> conta</h1>
+                <p>Inscreva seu filho em nossa escola e veja-o florescer em um <br>ambiente acolhedor, seguro e estimulante.
+                </p>
+            </div>
+            <img src="assets/Images/pana.png" alt="Kids">
+        </aside>
+    </body>
 
 </html>
